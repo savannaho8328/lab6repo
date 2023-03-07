@@ -16,6 +16,7 @@ def encode(password):
 
 
 def decode(n_password):
+    # Javier Abadia
     decoded_password = ""
     for number in n_password:
         if int(number) <= 2:
