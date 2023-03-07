@@ -1,3 +1,4 @@
+
 def print_menu():
     print("Menu")
     print("-------------")
@@ -6,6 +7,7 @@ def print_menu():
     print("3. Quit")
 
 def encode(password):
+    # savannah ogletree
     n_password = ""
     for num in password:
         num = int(num)
